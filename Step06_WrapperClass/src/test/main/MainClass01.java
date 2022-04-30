@@ -15,7 +15,7 @@ package test.main;
  *  
  *  - 때로는 기본데이터 type 의 참조데이터 type 이 필요할 때가 있다.
  *  - 기본 데이터 tyep 을 객체에 포장(boxing)하는 형태이다.
- *  - boxing 과 unboxing 은 자동으로 되기 때문에 프로그래머가 신경을 쓸 필요가 없다
+ *  - boxing 과 unboxing 은 자동으로 되기 때문에 프로그래머가 신경을 쓸 필요가 없다.
  */
 public class MainClass01 {
 	public static void main(String[] args) {

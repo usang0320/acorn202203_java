@@ -12,7 +12,7 @@ public class MainClass02 {
 		double result2 = num1+num2;
 		Double result3 = num1+num2;
 		
-		//숫자를 문자열로 바꾸기 10.1 => "10.1"
+		//숫자를 문자열로 바꾸기 10.2 => "10.2"
 		String strNum = num2.toString();
 		
 		//문자열을 숫자(double)로 바꾸기 "10.3" => 10.3

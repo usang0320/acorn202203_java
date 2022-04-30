@@ -12,9 +12,19 @@ public class MainClass01 {
 		System.out.println(m2.addr);
 		
 		s1.study();
+		s1.goSchool();
 		
 		Member m3 = new Member();
+		m3.name="이민영";
+		m3.num=23;
+		m3.addr="심심해요";
+		System.out.println(m3.name+"은 "+m3.addr);
 		
+		
+		Member m4 = new Member();
+		m4.name="이예진";
+		m4.addr="ㅈ댔어요";
+		System.out.println(m4.name+"은 "+m4.addr);
 		
 	}
 }

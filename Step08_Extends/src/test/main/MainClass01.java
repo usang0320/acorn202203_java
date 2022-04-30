@@ -16,7 +16,7 @@ public class MainClass01 {
 		p1.mobileCall();
 		p1.takePicture();
 		
-		Phone p2 = new Phone();
+		Phone p2 = p1;
 		p2.call();
 		// 부모는 자식의 기능을 사용 할 수 없다.
 	}

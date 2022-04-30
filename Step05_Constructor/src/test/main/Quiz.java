@@ -17,7 +17,7 @@ public class Quiz {
 		System.out.println(ranNum);
 		
 		//1~45 사이의 랜덤한 정수 하나를 얻어내서 ranNum2라는 지역변수에 담아 보세요.
-		int ranNum2 = ran.nextInt(1,46);
+		double ranNum2 = ran.nextDouble(1,46);
 		System.out.println(ranNum2);
 		
 		//true or false 중에 랜덤한 boolean 값을 얻어내서 isRun 이라는 지역변수에 담아보세요.	
