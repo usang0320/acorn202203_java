@@ -15,7 +15,7 @@ public class MainClass03 {
 		for(int i=0; i<3; i++) {
 			System.out.println("친구 이름을 입력하세요");
 			String name=sc.nextLine();
-			names.add(i, name);
+			names.add(name);
 		}
 		
 		//저장된 내용을 반복문 돌면서 순서대로 출력하기

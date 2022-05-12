@@ -13,6 +13,7 @@ public class MainClass08 {
 		dic.put("car", "자동차");
 		dic.put("pencil", "연필");
 		dic.put("eraser", "지우개");
+		System.out.println(dic);
 		
 		/*
 		 * 검색할 단어를 입력하세요:house

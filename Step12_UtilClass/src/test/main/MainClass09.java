@@ -19,6 +19,7 @@ public class MainClass09 {
 		set1.add(20);
 		set1.add(30);
 		set1.add(30);
+		System.out.println(set1);
 		
 		//문자열을 저장할 수 있는 HashSet 객체
 		Set<String> set2 = new HashSet<>();
@@ -27,6 +28,7 @@ public class MainClass09 {
 		set2.add("park");
 		set2.add("lee");
 		set2.add("park");
+		System.out.println(set2);
 		
 	}
 }

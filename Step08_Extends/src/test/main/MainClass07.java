@@ -16,9 +16,12 @@ public class MainClass07 {
 		CampingCar car1 = new CampingCar(new Engine());	// Car 을 상속 받았기 때문에 생성자를 super로 호출함
 		car1.drive();
 		car1.sleepInCar();
-		
+		car1.drive();
+		System.out.println("------------");
 		Engine nice=new Engine();
 		SuperCar mycar=new SuperCar(nice);
 		mycar.autoDrive();
+		mycar.drive();
+		
 	}
 }

@@ -5,6 +5,18 @@ import test.mypac.Calc;
 public class MainClass08 {
 	public static void main(String[] args) {
 		//Calc 인터페이스를 람다식(한줄코딩) 으로 구현하기
+		
+		Calc add2 = new Calc() {
+			@Override
+			public double exec(double a, double b) {
+				return a+b;
+			}
+		};
+		
+		Calc add3=(a,b)->{
+			return a+b;
+		};
+		
 		Calc add=(a,b)->a+b;
 		Calc sub=(a,b)->a-b;
 		Calc multi=(a,b)->a*b;

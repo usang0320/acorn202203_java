@@ -7,7 +7,7 @@ import test.mypac.FruitBox;
 public class MainClass01 {
 	public static void main(String[] args) {
 		// Generic 클래스를 Apple 로 지정해서 Fruit 객체 생성하기
-		FruitBox<Apple> box1=new FruitBox<Apple>();
+		FruitBox<Apple> box1=new FruitBox<>();
 		// 메소드의 인자로 Apple type 전달하기
 		box1.setItem(new Apple());
 		// 메소드가 리턴해주는 Apple type 받아오기

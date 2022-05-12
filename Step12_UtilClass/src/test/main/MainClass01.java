@@ -18,6 +18,9 @@ public class MainClass01 {
 		names.add("해골");
 		names.add("원숭이");
 		
+		Object names2 = names.clone();
+		System.out.println(names2);
+		
 		//0번방의 아이템을 불러와서 item 이라는 변수에 담아보세요
 		String item= names.get(0);
 		

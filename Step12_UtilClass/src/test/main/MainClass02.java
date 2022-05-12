@@ -25,6 +25,10 @@ public class MainClass02 {
 		for(int i=0; i<names.size();i++) {
 			System.out.println(i+"锅掳 模备 : "+names.get(i));
 		}
+		System.out.println("----------------");
+		for(String tmp : names) {
+			System.out.println(names.indexOf(tmp)+"锅掳 模备 : "+tmp);
+		}
 	}
 	
 	

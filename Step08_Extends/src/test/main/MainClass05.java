@@ -13,6 +13,6 @@ public class MainClass05 {
 		SmartPhone p2 = (SmartPhone)p1;	//HandPhone 에 설명서만 바꾼거라 안됨
 										//ClassCastException 발생! 참조값의 객체의 원래 type 을 확인
 		//엄마 짱짱
-		p2.doInternet();
+		p2.doInternet();	//->실패
 	}
 }

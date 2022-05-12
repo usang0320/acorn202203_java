@@ -19,7 +19,7 @@ public class SuperCar extends Car{
 		 * 제대로 동작을 안하는 경우가 있다.
 		 * 그런 경우에는 부모의 메소드를 반드시 호출해 주어야 한다.
 		 */
-		super.drive();	//부모의 메소드위에 덮어쓰겠다.
+//		super.drive();	//부모의 메소드위에 덮어쓰겠다.
 		System.out.println("조금 더 가속을 붙여서 엄청 빠르게 달려요");
 	}
 
